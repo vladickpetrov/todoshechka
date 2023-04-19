@@ -1,0 +1,13 @@
+.search-bar {
+    padding-left: 14px;
+    width: 95%;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(223, 223, 223);
+    outline: none;
+    transition: border .2s linear;
+}
+
+.search-bar:focus-visible {
+    border: 1px solid rgb(153, 153, 153);
+}

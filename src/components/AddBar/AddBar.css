@@ -1,0 +1,26 @@
+.add-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 15px;
+}
+
+.add-input {
+    width: 75%;
+    padding-left: 14px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid rgb(223, 223, 223);
+    outline: none;
+    transition: border .2s linear;
+}
+
+.add-input:focus-visible {
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.add-button {
+    width: 25%;
+    border: 1px solid rgb(188, 188, 188);
+}

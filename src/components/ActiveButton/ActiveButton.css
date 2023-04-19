@@ -1,0 +1,17 @@
+.search-button {
+    height: 30px;
+    background-color: rgb(212, 234, 253);
+    transition: background-color .2s linear, border .2s linear;
+}
+
+.search-button_active {
+    background-color: rgb(0, 136, 255);
+    border: none;
+    color: white;
+}
+
+.search-buttons-container {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}

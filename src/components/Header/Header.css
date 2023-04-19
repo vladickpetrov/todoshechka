@@ -1,0 +1,17 @@
+.header {
+    font-size: 30px;
+    margin: 0;
+    padding: 20px 0;
+    padding-left: 10px;
+}
+
+.header-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info {
+    color: grey;
+}

@@ -1,0 +1,10 @@
+.app {
+    max-width: 350px
+}
+
+.button-search {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: baseline;
+}
